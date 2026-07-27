@@ -1,0 +1,6 @@
+sources:
+  - name: raw
+    database: SALES_DW
+    schema: RAW
+    tables:
+      - name: CUSTOMER
