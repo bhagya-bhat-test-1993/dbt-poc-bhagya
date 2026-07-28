@@ -11,5 +11,5 @@ select
     country,
     created_date,
     updated_date
-from {{ source("raw", "CUSTOMER") }}
+from {{ source('raw', 'CUSTOMER') }}
 where country is not null
